@@ -1,0 +1,27 @@
+:root {
+    --main-footergrey:#e0dfdf;
+    --main-red: #E11C4B;;
+    --main-greybody: #f5f5f5b2;
+    --main-white: #ffffff;
+    --main-black: #333333;
+    --main-grey:   #8D8D8D;;
+    --main-greylight: #E7EBEC;
+  
+}
+  
+*, *::after, *::before{
+  box-sizing: border-box;
+}
+
+.a{
+    text-decoration: none;
+}
+  
+body{
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--main-greybody);
+}
+  
